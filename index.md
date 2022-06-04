@@ -1,7 +1,10 @@
 ## About Knwoledge (STILL DRAFT)
 
+> The muse visits during the act of creation, not before
+
 ## Knwoledge Goals
 
+### Needs and past experience
 Primary need is to collect and auto organize (at least "facet") news I read on Internet.
 
 My primary source is  [Hacker News](https://news.ycombinator.com) but I collect data from other souces too.
@@ -12,9 +15,12 @@ Eventually when an idea is ready for publishing, I write an article on my [Blog]
 
 Some Ideas can be private, but as a primary goal should be the abiity to prepare a "Idea ReCap" with all the information is presented to be able to write an article on it.
 
-Search is a crucial need
+1. Search is a crucial need.
+2. Aggregation from diferent sources seems unaivodable
+3. A lot of "bookmark" application tried in the past, they seems the wrong direction
+4. A long browser history seems a good source for the article basic link collection
 
-### Past experiment
+### Past experiments
 
 A Wordpress site with the folloing plugin offered a good starting point:
 
@@ -22,17 +28,13 @@ A Wordpress site with the folloing plugin offered a good starting point:
 - elasticpress to index site via elastic search
 - wpematico to aggressivly collect rss information (can be a bit dangerous for intellectual property)
 - auto-upload-images to collect external images, schematics
-- buddypress optional social engage
-- enlighter
+- buddypress /buddypress-docs for optional social engage
+- Simple Twenty Twenty theme with a fixed page showing:
+  - Calendar posts
+  - Categories
 
-```python
-def pythonBlock():
-  pass
-```
+Other fetaure included:
+- Able to import from other wordpress site
+- Stable XML-RPC API to quickly enable thrid parts post processing
 
-# References
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/daitangio/knowledge/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-Builder: [Jekyll](https://jekyllrb.com/)
