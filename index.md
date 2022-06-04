@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+## About Knwoledge (STILL DRAFT)
 
-You can use the [editor on GitHub](https://github.com/daitangio/knowledge/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Knwoledge Goals
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Primary need is to collect and auto organize (at least "facet") news I read on Internet.
 
-### Markdown
+My primary source is  [Hacker News](https://news.ycombinator.com) but I collect data from other souces too.
+I do not use bookmarks: I tend to publish interesting articles on twitter, or sent it to a special "todo" mailbox for further reading.
+I publish only things I think worth to, and I send to my todo-inbox only things I plan to use on my projects.
+I use "Read Later" iPhone functionality when I have a lot of mid-priority stuff to read.
+Eventually when an idea is ready for publishing, I write an article on my [Blog](https://gioorgi.com).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Some Ideas can be private, but as a primary goal should be the abiity to prepare a "Idea ReCap" with all the information is presented to be able to write an article on it.
 
-```markdown
-Syntax highlighted code block
+Search is a crucial need
 
-# Header 1
-## Header 2
-### Header 3
+### Past experiment
 
-- Bulleted
-- List
+A Wordpress site with the folloing plugin offered a good starting point:
 
-1. Numbered
-2. List
+- dw-question-answer to create a StackOverflow-like tassonomy
+- elasticpress to index site via elastic search
+- wpematico to aggressivly collect rss information (can be a bit dangerous for intellectual property)
+- auto-upload-images to collect external images, schematics
+- buddypress optional social engage
+- enlighter
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```python
+def pythonBlock():
+  pass
 ```
 
+# References
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/daitangio/knowledge/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Builder: [Jekyll](https://jekyllrb.com/)
