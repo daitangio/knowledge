@@ -4,6 +4,9 @@
 
 ## Knwoledge Goals
 
+
+
+
 ### Needs and past experience
 Primary need is to collect and auto organize (at least "facet") news I read on Internet.
 
@@ -36,5 +39,31 @@ A Wordpress site with the folloing plugin offered a good starting point:
 Other fetaure included:
 - Able to import from other wordpress site
 - Stable XML-RPC API to quickly enable thrid parts post processing
+
+
+# Candidates
+
+- Wordpress +Elastic Search + Jupiter
+  - Pro
+    - Nice look
+    - Resouce consumption medium (1.2GB RAM)
+    - XML API
+  - Cons
+    - Plugin support lacks
+    - Heavy MySQL DB
+    - Attack surface not small
+- GitLab
+  - Pro
+    - Can set up an Editorial boards based on Issues
+    - Can Manage wikis via simple github-rendered projects
+    - Code-centric
+  - Cons
+    - Memory consumption heavy (4GB RAM)
+    - Less nice themes
+    - Heavy Database
+- Custom Python aggregator
+  - Pro
+    - Very small resouce consumption
+    - Portable sqlite3 database
 
 
