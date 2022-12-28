@@ -5,7 +5,28 @@ A knowledge daemon to collect ideas and auto organize them
 
 Refer to https://daitangio.github.io/knowledge/ for motivation and goals
 
+# Setup
+Init the venv with
+
+    python3 -m venv venv
+    source venv/bin/activate
+    pip install -r requirements.txt
+
 # Core functions
+
+Index a document with:
+
+    ./index.sh import ....
+
+Search with
+    ./index.sh search searchterm
+
+System is able to update data easily.
+It als does englih stemming, so idnexintg this readme would result singluar or pluar searches like
+
+    ./index.sh import README.md
+    ./index.sh search muses
+    ./index.sh search muses AND visit
 
 ## Search
 
