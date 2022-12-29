@@ -9,6 +9,6 @@ PRAGMA integrity_check;  -- Reports corrupted data
 -- Using the porter tokenizer english stemming is supported
 Create virtual table if not exists doc using fts5(path,body, upd_date, tokenize='porter');
 
-Create virtual table if not exists blog using fts5(title,url,body, tokenize='porter');
 
 create table if not exists file_to_load (fullpath);
+create table if not exists url_to_load (url,content);

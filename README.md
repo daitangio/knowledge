@@ -18,11 +18,14 @@ Index a document with:
 
     ./index.sh import ....
 
+Index one or more url with:
+
+    ./index.sh url https://github.com https://google.com
 Search with
     ./index.sh search searchterm
 
 System is able to update data easily.
-It als does englih stemming, so idnexintg this readme would result singluar or pluar searches like
+It als does english stemming, so indexing this readme would result singluar or pluar searches like
 
     ./index.sh import README.md
     ./index.sh search muses
