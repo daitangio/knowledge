@@ -22,12 +22,11 @@ insert into doc(path,body)
 delete from url_to_load;
 
 
+/* This command merges all individual b-trees that currently make up the full-text index into a single large b-tree structure. 
+This ensures that the full-text index consumes the minimum space within the database and is in the fastest form to query.
+Ref https://www.sqlite.org/fts5.html#the_merge_command
+*/
 insert into doc(doc) VALUES('optimize');
-select count(*) from doc;
-
-
-
-
-
+select count(*) as total_documents from doc;
 
 .quit
