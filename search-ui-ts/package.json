@@ -1,0 +1,23 @@
+{
+  "name": "search-ui",
+  "version": "3.1.1",
+  "type": "module",
+  "homepage": "https://mdbootstrap.com/docs/b5/vue/",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "start": "vite --open"
+  },
+  "dependencies": {
+    "mdb-vue-ui-kit": "3.1.1",
+    "vue": "^3.2.40",
+    "vue-router": "^4.1.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.1.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0",
+    "vue-tsc": "^0.40.4"
+  }
+}
