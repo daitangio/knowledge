@@ -45,3 +45,14 @@ https://django-haystack.readthedocs.io/en/v2.4.1/toc.html
 
 # API Access
 Valutare FastAPI o https://www.django-rest-framework.org ?
+
+# Eval new database backend
+https://duckdb.org/
+Has some interesting FTS stemming  capabilities
+https://duckdb.org/docs/extensions/full_text_search
+
+
+- Download the CLI
+- Put it under bin
+- Try 
+> ./bin/duckdb test.duckdb < ./ddl/duckdb/01-test.sql
