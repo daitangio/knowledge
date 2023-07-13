@@ -5,6 +5,10 @@ A knowledge daemon to collect ideas and auto organize them
 
 Refer to https://daitangio.github.io/knowledge/ for motivation and goals
 
+Based on SQLite FTS5
+
+https://www.sqlite.org/fts5.html
+
 # Setup
 Init the venv with
 

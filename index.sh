@@ -4,6 +4,8 @@ set -eo pipefail
 DB=${LEARN_DB:-~/.learndb-v1.sqlite3}
 LEARN_HOME=$(dirname $0)
 set -u
+export PATH=$LEARN_HOME/bin:$PATH
+
 
 initDB() {
     dbfile="$1"
@@ -57,6 +59,8 @@ case "$1" in
         # rank is like bm25: smaller is better 
         SEARCH_STRING="select  (path ||'(' || rank || ')') as path_ranked, snippet(doc,1, '**','**','..',8) as snippet from doc where body match '$*' order by rank  limit 7"
         echo $SEARCH_STRING
+        set -x
+        set +e
         sqlite3 $DB  -box -separator '  ' -batch "${SEARCH_STRING}"
         
         ;;
